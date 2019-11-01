@@ -1,0 +1,62 @@
+ <style>
+    #seat-table{width:auto; margin:0px auto 50px ;}
+    #seat-table td{padding:0px; text-align:center; font-size: 20px;}
+    #seat-table td .seat, #seat-table td .seat-id {
+    width: 50px;
+    float: left;
+    margin: 0px 2px;
+}
+ 
+    #seat-table td .seat a {
+            display: inline-block;
+        font-size: 14px;
+        line-height: 22px;
+        width: 20px;
+        height: 20px;
+        border-radius: 3px !important;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        transition: 0s all;
+    }
+    #seat-table td .seat a.available{box-shadow: 0 0 0 1px #0099CC;}
+    #seat-table td .seat a.selected{background-color:#009933}
+    #seat-table td .seat a:hover, #seat-table td .seat a.selected{background-color:#0099CC; border:none; color:#fff;}
+    #seat-table td .noborder{border:none}
+    #seat-table td .screen-side{width:90%; margin:15px auto 5px; border:1px solid #0099CC; font-size:13px}
+    #seleceted_seat_h4{ text-align:left; margin:10px 0; padding:10px 0}
+
+    .exist_movie_seat {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 22px;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px !important;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    transition: 0s all;
+    margin-top: 0px;
+}
+
+.token_design{
+  box-shadow: 0 0 0 1px #ccc;
+    background-color: #ccc;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.checked_token_design {
+    box-shadow: 0 0 0 1px #56c7ff;
+    background-color: #56c7ff;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 4px;
+}
+div#seats {
+    height: 500px;
+    overflow: scroll;
+}
+    </style>

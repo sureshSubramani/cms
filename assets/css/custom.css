@@ -1,0 +1,262 @@
+/**
+ *
+ * Apply Here your Custom CSS
+ *
+*/
+
+/* Response */
+
+.response {
+    padding: 6px;
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.exists {
+    color: green;
+}
+
+.not-exists {
+    color: red;
+}
+
+.grid-box {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.zoom {
+    padding: 25px;
+    background-color: #f5f5f6;
+    transition: transform 0.5s;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+.shape {
+    background: #f5f5f6;
+    padding: 2px 5px;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+}
+
+.minus-color {
+    color: #e22323 !important;
+    font-size: 7pt !important;
+}
+
+.plus-color {
+    color: #05af38 !important;
+    font-size: 7pt !important;
+}
+
+.alert-absolute {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 5%;
+    width: 80%;
+    z-index: 1;
+}
+
+.alert p {
+    font-size: 11pt;
+    font-weight: 500;
+}
+
+.text-color {
+    color: #4b4a4a;
+    font-weight: 600;
+}
+
+.text-line {
+    border: 0;
+    border-bottom: 1px solid #eeeeee;
+    box-sizing: content-box;
+    height: 0;
+    margin-bottom: 12px;
+}
+
+.icon-shape {
+    padding: 1.5px 5px;
+    border-radius: 30px;
+    font-size: 10px !important;
+    background: #454a54 !important;
+    color: #dadada !important;
+    font-weight: 300 !important;
+}
+
+.uom_id option {
+    text-transform: uppercase !important;
+}
+
+.store-code {
+    font-weight: bolder !important;
+    display: inline-block;
+}
+
+.store-none {
+    display: none;
+    opacity: 0;
+}
+
+.label-disable {
+    background-color: #f9d7d7;
+}
+
+.disable {
+    color: #d0d0d0;
+}
+
+.search {
+    background: #fff !important;
+}
+
+input.ng-invalid, select.ng-invalid {
+    background-color: #f7d6d6;
+}
+
+/*input.ng-valid, select.ng-valid {
+    background-color: #d2f5dc;
+}*/
+
+.error {
+    color: #e43636;
+    padding: 5px 0px;
+}
+
+.is-not-serach {
+    font-size: 15px;
+    color: #e22323;
+    font-weight: 500;
+    text-align: center;
+}
+
+select option {
+    /*background: rgb(243, 243, 243);*/
+    padding: 5px;
+}
+
+.hide_code {
+    /* display: none; */
+    opacity: 0;
+}
+
+.visible_code {
+    display: block;
+    background: #e5e5e5;
+    padding: 10px 5px 5px;
+    opacity: 1;
+}
+
+.menu-bottom {
+    margin-bottom: 12px;
+    padding-right: 16px !important;
+}
+
+.focus {
+    border: 1px solid #d8d8d8;
+    box-shadow: 0px 0px 3px #05af38 !important;
+    color: #4b4a4a;
+}
+
+.pro-active {
+    color: #fff;
+    font-size: 13px !important;
+    text-align: center;
+}
+
+.pro-deactive {
+    color: #fff;
+    font-size: 11px !important;
+    text-align: center;
+}
+
+.modal.fade .modal-dialog {
+    -webkit-transform: scale(0.1);
+    -moz-transform: scale(0.1);
+    -ms-transform: scale(0.1);
+    transform: scale(0.1);
+    top: 300px;
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.modal.fade.in .modal-dialog {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform: translate3d(0, -300px, 0);
+    transform: translate3d(0, -300px, 0);
+    opacity: 1;
+}
+
+.modal-footer {
+    /* padding: 15px;
+    text-align: right; */
+    border-top: 0px solid #e5e5e5;
+}
+
+/*----------------------------sales cards ----------------------*/
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.card img {
+    border-radius: 5px 5px 0 0;
+}
+
+.box-contant {
+    padding: 2px 16px;
+}
+
+.disabled-out-of-stock {
+    opacity: 0.3;
+    /*-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    /*filter: grayscale(100%);*/
+    cursor: default !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+}
+
+.disabled-out-of-stock h4, .disabled-out-of-stock h5 {
+    color: #000;
+}
+
+.disabled-out-of-stock h6 span {
+    /*text-transform: uppercase;*/
+    font-weight: 800;
+    color: #de0d0d;
+}
+
+.table th {
+    font-weight: 500 !important;
+}
+
+.table td {
+    font-weight: 400 !important;
+}
